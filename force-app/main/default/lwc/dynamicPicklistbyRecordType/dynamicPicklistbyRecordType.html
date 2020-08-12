@@ -1,0 +1,18 @@
+<template>
+    <lightning-combobox
+        name="RecordTyepe"
+        label="Select Record Type"
+        value={RecordTyepevalue}
+        placeholder="Select Record Type"
+        options={RecordTypeoptions}
+        onchange={handleChangeRecordType} >
+    </lightning-combobox>
+    <lightning-combobox
+        name="Rating"
+        label="Rating"
+        value={Ratingvalue}
+        options={Ratingoptions}
+        onchange={handleChange} >
+    </lightning-combobox>
+
+</template>
