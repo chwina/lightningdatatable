@@ -4,4 +4,6 @@ public with sharing class getAccountsforpagination {
     public static List<Account>  getAllAccount(){
             return [Select Id,Name,Phone from Account limit 100];
         } 
+
+        
 }

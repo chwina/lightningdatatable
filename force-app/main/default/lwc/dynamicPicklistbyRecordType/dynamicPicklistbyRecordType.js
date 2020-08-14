@@ -41,6 +41,8 @@ export default class DynamicPicklistbyRecordType extends LightningElement {
 
         handleChangeRecordType(event){
                  this.recordTypeId = event.target.value;
-        }
+        
+}
+
 
 }
